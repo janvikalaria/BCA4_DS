@@ -1,0 +1,45 @@
+*Hospital Patient Management System (Using Singly Linked List in C)*
+
+- to manage patients in a hospital.
+- Each patient is represented as a node.
+ struct Patient {
+    int id;
+    char name[30];
+    struct Patient* next;
+ };
+- New patients are added at the end 
+- Treated patients are removed from the beginning, following FCFS (First Come First Serve).
+1. addPatient() - Insertion: At end (new patient arrival)
+2. treatPatient() - Deletion: From beginning (patient treated)
+3. displayPatients() Display patient's id and name
+4. countPatients() - Count the number of patients and display
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+🔹 2. Railway Reservation Waiting List System
+Definition:
+A Railway Reservation Waiting List is a real-life application of a linked list in C where each passenger is stored as a node.
+Each node contains passenger name, ticket number, and next pointer.
+Passengers are added and removed dynamically as confirmations occur.
+
+Operations Included:
+
+Insert passenger at last (new waiting ticket)
+Insert at first (VIP passenger)
+Delete from first (ticket confirmed)
+Delete from last (cancellation)
+Insert/delete at specific position
+Count waiting passengers
+Search passenger by ticket number
