@@ -1,0 +1,22 @@
+
+1. A mobile phone stores several contact numbers in memory. When a user wants to find a particular number, the system checks each stored contact one by one until the required number is found.
+
+If the number exists, the program displays its position in the contact list. If it does not exist, the program displays “Contact not found”.
+
+
+
+2.A company stores employee IDs in a list. The IDs are stored randomly and not in sorted order. When the HR department wants to check whether an employee exists in the database, the system compares the required ID with each stored ID sequentially.
+
+
+3.A college maintains records of students including roll number and name using a structure. When a teacher wants to find information about a student, the system searches the roll number in the list.
+
+Since the records are not stored in sorted order, the program checks each record one by one until the roll number is found.
+
+If the roll number exists, the program displays the student's details.
+
+
+4.A company stores employee ID and employee name using a structure. When HR wants to check a particular employee, the system searches the ID.
+
+5.A library stores book ID and book name using structures. The librarian wants to check whether a particular book ID exists.(Linear Search)
+
+6.A company stores employee salary and employee name sorted by salary using structures.(Binary Search)
